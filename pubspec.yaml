@@ -1,0 +1,33 @@
+name: todo_app_marysa
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5 # Gestion d'état
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  sqflite: ^2.3.0 # Base de données SQLite
+  path_provider: ^2.1.1 # Accès aux chemins de fichiers
+  path: ^1.9.0
+  intl: ^0.20.2 # Internationalisation et formatage
+  flutter_local_notifications: ^19.1.0 # Notifications
+  uuid: ^4.2.1 # Génération d'identifiants uniques
+  shared_preferences: ^2.2.2 # Stockage de préférences utilisateur
+  timezone: ^0.10.1 # Gestion des fuseaux horaires
+  logging: ^1.2.0 # Journalisation
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
